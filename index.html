@@ -9,7 +9,7 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
       
@@ -51,10 +51,9 @@
                     </div>
                     <p class="lead mb-5">Like many of other Americans, my job became obsolete due to the Covid-19 pandemic. I decided to use the opportunity to go back to school and become a Software Developer. </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/betsy-hollis-32b7a61b7?trk=profile-badge"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/betsyhollis?trk=profile-badge"><i class="fab fa-linkedin-in"></i></a>
 
                         <a class="social-icon" href="https://github.com/BHollis1"><i class="fab fa-github"></i></a>
-
 
                         <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -166,16 +165,17 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
+                    <h2 class="mb-5">Competencies & Functional Skills</h2>
+                    <p>Problem solving, troubleshooting, creativity, visual communication, customer service, critical observation and thinking, organization, Agile methodology, portfolio development, addressing and resolving business challenges</p>
+                    
                     <div class="subheading mb-3"></div>
-                    <ul class="list-inline dev-icons">
-                        
-                        <li class="list-inline-item"><i class="fa fa-coffee"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-laptop-code"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-video"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-graduation-cap"></i></li>
-                       
-                    </ul>
+                    <h2 class="mb-5">Technical Skills</h2>
+                    <p>Languages:   C#, ASP.NET, API development, HTTP methods, MVC, pair programming</p>
+                    <p>Testing Tools:  Rational Clear Quest, Mercury Tools, Unit Testing</p>
+                    <p>Databases:  SQL server, relational Databases</p>
+                    <p>Operating Systems:  Windows 10</p>
+                    <p>Office Tools:  MS Office (Word, Excel, Access, Power Point, Outlook)</p>
+                    <p>Web Technologies:  HTML, CSS, APIs, stateless components, session validation, responsive web design</p>
                     <div class="subheading mb-3"></div>
                     
                 </div>
@@ -198,7 +198,7 @@
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contact</h2>
-                    <ul class="fa-ul mb-0">
+                    <!-- <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             
@@ -237,7 +237,19 @@
                             <sup></sup>
                          
                         </li>
-                    </ul>
+                    </ul> -->
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkgdwyq" method="post">
+                        <fieldset id="fs-frm-inputs">
+                          <label for="full-name">Full Name</label>
+                          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                          <label for="email-address">Email Address</label>
+                          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                          <label for="message">Message</label>
+                          <textarea rows="5" name="message" id="message" placeholder="Enter your message here." required=""></textarea>
+                          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                        </fieldset>
+                        <input type="submit" value="Submit">
+                      </form>
                 </div>
             </section>
         </div>
